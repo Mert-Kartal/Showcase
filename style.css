@@ -1,0 +1,140 @@
+a.navbar-brand:hover{
+    color: blue;
+}
+
+.hero-section{
+    background-color: #f8f9fb;
+    padding-top: 10rem;
+}
+
+.app{
+    width: 10rem;
+    height: 3rem;
+}
+
+.phone{
+    position: relative;
+    margin-left: 10rem;
+    margin-bottom: 3rem;
+    width: 16.5rem;
+    height: auto;
+    z-index: 10;
+}
+
+.quote{
+    background-color: darkblue;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.quote p{
+    font-size: 2.5rem;
+}
+
+.quote img{
+    width:10rem;
+    height:5rem;
+}
+
+.features img{
+    width: 16.5rem;
+    height: auto;
+    
+}
+
+.innovation{
+    background-color: #f8f9fb;
+}
+
+.innovation img{
+    width:35rem;
+    height:35rem;
+}
+
+@media all and (min-width: 425px) {
+  .innovation img {
+    width: 15rem;
+    height: 15rem;
+  }
+}
+
+@media all and (min-width:768px) {
+  .innovation img {
+    width: 25rem;
+    height: 25rem;
+  }
+}
+
+@media all and (min-width:1024px) {
+  .innovation img {
+    width: 25rem;
+    height: 25rem;
+  }
+}
+
+@media all and (min-width:1440px) {
+  .innovation img {
+    width: 30rem;
+    height: 30rem;
+  }
+}
+
+.add a{
+  border: 1px white solid;
+  color: white;
+}
+
+.add a:hover{
+  background-color: white;
+  color: black;
+}
+
+.add{
+  padding: 15rem 0 15rem 0;
+  background-image:url(https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/1500x800.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.get-app{
+  background-color:darkblue;
+}
+
+.licence{
+  background-color: black;
+}
+
+.licence a{
+  color: gray;
+  text-decoration: none;
+}
+
+.licence a:hover{
+  text-decoration: underline;
+}
+
+@media all and (min-width:425px) {
+  .hero-section img.phone {
+    display: flex;
+    justify-content: center;
+      }
+}
+
+.ball{
+  background-color: blueviolet;
+  width: 20rem;
+  height: 20rem;
+}
+
+.features .ball{
+     
+      transform: translate(7%,50%);
+}
+
+.hero-section .ball{
+  transform: translate(25%,30%);
+
+  
+}
+
